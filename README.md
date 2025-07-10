@@ -4,9 +4,8 @@ A Django REST Framework-based API that uses JWT for authentication. Dockerized a
 
 ## API Endpoints
 
-### POST `/api/auth/login/`
-- **Request Body**
-```json
+POST /api/auth/login/
+Request Body
 {
   "username": "admin",
   "password": "admin123"
